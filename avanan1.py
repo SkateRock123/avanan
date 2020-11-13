@@ -26,3 +26,61 @@ while userinput != "Quit":
 		if file not in directory:
 			directory.insert(loc1, file)
 
+# class Tree():
+#     def __init__(self,root):
+#         self.root = root
+#         self.children = []
+#         self.Nodes = []
+#     def addNode(self,obj):
+#         self.children.append(obj)
+
+#     def getAllNodes(self):
+#         self.Nodes.append(self.root)
+#         for child in self.children:
+#             self.Nodes.append(child.data)
+#         for child in self.children:
+#             if child.getChildNodes(self.Nodes) != None:
+#                 child.getChildNodes(self.Nodes)
+#         print(*self.Nodes, sep = "\n")
+#         print('Tree Size:' + str(len(self.Nodes)))
+
+# class Node():
+#     def __init__(self, data):
+#         self.data = data
+#         self.children = []
+#     def addNode(self,obj):
+#         self.children.append(obj)
+#     def getChildNodes(self,Tree):
+#         for child in self.children:
+#             if child.children:
+#                 child.getChildNodes(Tree)
+#                 Tree.append(child.data)
+#             else:
+#                 Tree.append(child.data)
+
+
+# filesystem = Tree("root")
+# filesystem.addNode(Node("user1"))
+# filesystem.addNode(Node("user2"))
+# filesystem.children[0].addNode(Node("Desktop"))
+# filesystem.children[0].addNode(Node("Documents"))
+# filesystem.children[1].addNode(Node("Desktop"))
+# filesystem.children[1].addNode(Node("Documents"))
+# filesystem.children[0].children[0].addNode(Node("app1"))
+# filesystem.children[0].children[0].addNode(Node("app2"))
+# filesystem.children[0].children[1].addNode(Node("doc1"))
+# filesystem.children[0].children[1].addNode(Node("doc2"))
+# filesystem.children[1].children[0].addNode(Node("app1"))
+# filesystem.children[1].children[0].addNode(Node("app2"))
+# filesystem.children[1].children[1].addNode(Node("doc1"))
+# filesystem.children[1].children[1].addNode(Node("doc2"))
+
+
+# userinput = None
+# while userinput != "Quit":
+#     filesystem.getAllNodes()
+#     userinput = input("Execute your command here. Type (Quit) to exit. ")
+
+    
+
+
